@@ -3,6 +3,8 @@ import { useEffect, useRef, useState } from "react";
 import WebViewer from "@pdftron/webviewer";
 
 function App() {
+  // 0 - default tab
+  // 1 - PDF tab
   const [tab, setTab] = useState(0);
   const viewer = useRef<HTMLDivElement>(null);
 
